@@ -9,7 +9,7 @@ POST localhost:8090/api/employees/save
 Request Body:
 ```json
 {
-    "id": 1,
+    "employeeId": "sr0507",
     "firstName": "Srikanth",
     "lastName": "Muddu",
     "email": "srikanth.muddu57@outlook.com",
