@@ -5,6 +5,7 @@ API Endpoints via postman.
 POST /api/employees/save
 
 Request Body:
+```json
 {
     "id": 1,
     "firstName": "Srikanth",
@@ -14,10 +15,13 @@ Request Body:
     "doj": "2023-05-16",
     "salary": 50000
 }
+```
 
 2. Get Employee Tax Details
 
+```
 GET /api/employees/{id}/taxDetail   ->  GET /api/employees/1/taxDetail
+```
 
 3. Get All Employee Details
 
