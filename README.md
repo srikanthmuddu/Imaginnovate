@@ -3,7 +3,7 @@ API Endpoints via postman.
 1. Store Employee Details
 
 ```json
-POST /api/employees/save
+POST localhost:8090/api/employees/save
 ```
 
 Request Body:
@@ -24,12 +24,12 @@ Request Body:
 ```
 GET /api/employees/{id}/taxDetail
 
-GET /api/employees/1/taxDetail
+GET localhost:8090/api/employees/1/taxDetail
 ```
 
 3. Get All Employee Details
 ```json
-GET /api/employees/getAll
+GET localhost:8090/api/employees/getAll
 ```
 This endpoint returns the tax deduction details for an employee for the current financial year (April to March).
 ```curl
